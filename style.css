@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', serif;
+    background: #fdfdfd;
+    color: #222;
+    line-height: 1.7;
+    font-size: 17px;
+    padding: 40px 20px;
+}
+
+.container {
+    max-width: 640px;
+    margin: 0 auto;
+}
+
+header {
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: normal;
+    margin-bottom: 6px;
+}
+
+.subtitle {
+    color: #555;
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+.contact {
+    font-size: 15px;
+    color: #555;
+}
+
+.contact a {
+    color: #222;
+    text-decoration: underline;
+}
+
+.contact a:hover {
+    color: #0066cc;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 19px;
+    font-weight: normal;
+    margin-bottom: 15px;
+    color: #222;
+}
+
+p {
+    margin-bottom: 14px;
+    color: #333;
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul.experience {
+    list-style: none;
+    padding: 0;
+}
+
+ul.experience li {
+    margin-bottom: 20px;
+    padding-left: 0;
+}
+
+ul.experience strong {
+    font-weight: normal;
+    font-style: italic;
+}
+
+.muted {
+    color: #666;
+    font-size: 15px;
+}
+
+footer {
+    margin-top: 60px;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+    font-size: 14px;
+    color: #888;
+}
+
+@media (max-width: 600px) {
+    body {
+        font-size: 16px;
+        padding: 25px 15px;
+    }
+    h1 {
+        font-size: 24px;
+    }
+}
